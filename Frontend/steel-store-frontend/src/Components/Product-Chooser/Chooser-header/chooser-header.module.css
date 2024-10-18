@@ -1,0 +1,24 @@
+.chooser_header_container {
+  background-color: rgba(20, 20, 20, 1);
+}
+
+.chooser_header_list {
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+  list-style-type: none;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  padding: 0;
+
+}
+.chooser_header_list li {
+    text-align: center;
+    line-height: 70px;
+  }
+
+.chooser_header_list li:hover {
+  cursor: pointer;
+  color: rgba(232, 170, 49, 1);
+  border-bottom: solid 2px rgba(232, 170, 49, 1);
+}

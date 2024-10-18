@@ -1,0 +1,27 @@
+version: '3.7'
+services:
+  db_steelstore:
+    image: postgres:17
+    container_name: backend_steelstore_db
+    env_file:
+      - .env-non-dev
+    ports:
+      - "5432:5432"
+
+  redis_steelstore:
+    image: redis:7
+    container_name: backend_steelstore_redis
+
+  backend_steelstore:
+    image: backend_steelstore_image
+    build:
+      context: .
+    container_name: steelstore_app
+    env_file:
+      - .env-non-dev
+    depends_on:
+      - db_steelstore
+      - redis_steelstore
+    command: ["/steelstore-backend/docker/app.sh"]
+    ports:
+      - "7777:8000"
