@@ -30,6 +30,10 @@ export const ChooserInfo = () => {
       </div>
 
       <div className={styles.chooser_info_bottom_block}>
+        <div>
+
+          
+        </div>
         <div className={styles.chooser_info_bottom_block_text}>
           <div>
             <img src={Guarantee_logo} alt="Guarantee_logo" />

@@ -1,0 +1,21 @@
+.main_product_container {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 100px 146px 0 146px;
+}
+
+.main_product_title_hit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 166px 0 166px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 15px;
+}
+.main_product_title_hit p {
+    margin-left: 10px;
+}
+.main_product_title_hit p span {
+    color: rgba(232, 170, 49, 1);
+}
