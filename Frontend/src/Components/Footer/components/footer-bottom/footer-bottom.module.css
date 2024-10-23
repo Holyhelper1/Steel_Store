@@ -1,0 +1,130 @@
+.footer_bottom_container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 35px;
+  width: 1575px;
+  background-color: rgba(20, 20, 20, 1);
+  color: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.footer_ul_container ul {
+  padding: 0;
+  width: 235px;
+}
+
+
+.footer_title {
+    font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  line-height: 21.94px;
+}
+
+.footer_ul_container li {
+  list-style-type: none;
+  line-height: 35px;
+  font-size: 18px;
+}
+.yellow {
+  color: rgba(232, 170, 49, 1);
+}
+
+
+.footer_ul_container_last {
+    width: 379px;
+    height: 201px;
+}
+
+.footer_ul_container_last li {
+    list-style-type: none;
+    line-height: 35px;
+ }
+
+ .emailInput {
+    width: 80%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 2px solid white;
+    background-color: rgb(39, 39, 39)
+    
+ }
+ .emailInput::placeholder {
+    color: rgba(255, 255, 255, 0.7); 
+  }
+
+  .emailInput:focus {
+    border-color: rgba(232, 170, 49, 1); 
+  }
+
+
+
+
+/* 
+.checkboxContainer {
+   
+    display: flex;
+   
+  }
+  
+  .customCheckbox {
+   display: none; 
+  }
+  
+  .checkboxLabel {
+    position: relative;
+    padding-left: 30px; 
+    cursor: pointer; 
+  }
+  
+  
+  .checkboxLabel::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 2px solid white; 
+    background-color: rgb(39, 39, 39);
+    border-radius: 4px; 
+  }
+  
+  .customCheckbox:checked + .checkboxLabel::before {
+    background-color: rgb(39, 39, 39); 
+    border: 2px solid white; 
+  }
+  
+
+  .customCheckbox:checked + .checkboxLabel::after {
+    content: '✔'; 
+    position: absolute;
+    left: 4px; 
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(232, 170, 49, 1); 
+    font-size: 16px; 
+  }
+
+
+  .emailInput {
+    width: 100%; 
+    padding: 10px; 
+    border: 2px solid white; 
+    background-color: rgb(39, 39, 39);
+    color: white; 
+    border-radius: 4px; 
+    font-size: 16px; 
+    outline: none; 
+    transition: border-color 0.3s ease; 
+  }
+  
+  .emailInput::placeholder {
+    color: rgba(255, 255, 255, 0.7); 
+  }
+  
+  .emailInput:focus {
+    border-color: rgba(232, 170, 49, 1); 
+  }
+   */
