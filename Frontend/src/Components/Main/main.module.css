@@ -18,4 +18,10 @@
 }
 .main_product_title_hit p span {
     color: rgba(232, 170, 49, 1);
+    cursor: pointer;
+}
+
+.main_product_title_hit p span {
+    color: rgba(232, 170, 49, 1);
+    cursor: pointer;
 }
