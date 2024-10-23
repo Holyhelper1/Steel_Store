@@ -1,0 +1,10 @@
+.footer_rights_container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 49px;
+    background-color: rgba(20, 20, 20, 1);
+    color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
