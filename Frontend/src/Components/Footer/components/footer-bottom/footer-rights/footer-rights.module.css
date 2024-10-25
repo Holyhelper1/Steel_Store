@@ -1,10 +1,15 @@
 .footer_rights_container{
+    background-color: rgba(20, 20, 20, 1);
+}
+
+.footer_rights_box {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
+    margin: auto;
+    width: 1575px;
     padding-top: 30px;
     padding-bottom: 49px;
     background-color: rgba(20, 20, 20, 1);
     color: rgba(255, 255, 255, 0.8);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }

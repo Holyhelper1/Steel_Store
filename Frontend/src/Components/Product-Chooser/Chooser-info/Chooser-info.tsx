@@ -5,9 +5,19 @@ import Pointer_logo from "../assets/Pointer_logo.png";
 import Sale_logo from "../assets/Sale_logo.png";
 import Main_knife from "../assets/Main_knife.png";
 import Ellipse from "../assets/Ellipse.png";
+import Plus from "../../Assets/Plus-logo.png";
 import { Button } from "../../Button/Button";
+import { useState } from "react";
 
 export const ChooserInfo = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const HandleClickOpen = () => {
+    setIsHovered(!isHovered);
+    // setTimeout(() => setIsHovered(false), 2000);
+    console.log("open text");
+  };
+
   return (
     <div className={styles.chooser_info_container}>
       <div className={styles.chooser_info_title_block}>
@@ -24,16 +34,58 @@ export const ChooserInfo = () => {
           <p> ----- 01/4</p>
         </div>
         <div className={styles.chooser_info_title_block_img}>
-          <img src={Main_knife} alt="Main_knife" />
+          <img
+            src={Main_knife}
+            alt="Main_knife"
+            className={styles.main_knife}
+          />
           <img className={styles.ellipse} src={Ellipse} alt="Ellipse" />
+          <div className={styles.chooser_info_title_block_img_plus}>
+            <div
+              onClick={() => HandleClickOpen()}
+              className={styles.ellipse_plus}
+            >
+              <img src={Plus} alt="Plus" />
+              {isHovered && (
+                <div>
+                  <p className={styles.ellipse_plus_text}>Отличные аксесуары</p>
+                </div>
+              )}
+            </div>
+
+            <div
+              onClick={() => HandleClickOpen()}
+              className={styles.knife_plus}
+            >
+              <img src={Plus} alt="Plus" />
+              {isHovered && (
+                <div>
+                  <p className={styles.ellipse_plus_text}>
+                    Лезвие долго держит заточку
+                  </p>
+                </div>
+              )}
+            </div>
+
+            <div
+              onClick={() => HandleClickOpen()}
+              className={styles.knife_handle_plus}
+            >
+              <img src={Plus} alt="Plus" />
+              {isHovered && (
+                <div>
+                  <p className={styles.ellipse_plus_text}>
+                    Рукоядка на Ваш выбор
+                  </p>
+                </div>
+              )}
+            </div>
+          </div>
         </div>
       </div>
 
       <div className={styles.chooser_info_bottom_block}>
-        <div>
-
-          
-        </div>
+        <div></div>
         <div className={styles.chooser_info_bottom_block_text}>
           <div>
             <img src={Guarantee_logo} alt="Guarantee_logo" />

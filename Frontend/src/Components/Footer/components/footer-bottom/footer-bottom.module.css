@@ -27,6 +27,12 @@
 }
 .yellow {
   color: rgba(232, 170, 49, 1);
+  cursor: pointer;
+  /* transition: 0.3s ease-in-out; */
+}
+.yellow:hover {
+  color: rgb(248, 209, 33);
+  cursor: pointer;
 }
 
 
@@ -40,91 +46,90 @@
     line-height: 35px;
  }
 
- .emailInput {
-    width: 80%;
-    padding: 10px;
-    font-size: 14px;
+ .emailContainer {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid rgba(255, 255, 255, 1); */
     border-radius: 3px;
-    border: 2px solid white;
-    background-color: rgb(39, 39, 39)
+    margin: 20px 0;
+    
+ }
+ input:focus {
+  outline: none;
+  margin: 0;
+ }
+ input {
+  margin: 0;
+  padding: 0;
+  border: none;
+ }
+
+ .emailButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(232, 170, 49, 1);
+ }
+
+ .emailInput  {
+  
+    width: 310px;
+    height: 48.5px;
+    padding-left: 15px;
+    font-size: 14px;
+    /* border: 2px solid white; */
+    border-radius: 3px 0 0 3px;
+    background-color: rgb(39, 39, 39);
+    color: rgba(255, 255, 255, 1);
     
  }
  .emailInput::placeholder {
     color: rgba(255, 255, 255, 0.7); 
   }
 
-  .emailInput:focus {
+  .footer_ul_container_last .emailInput:focus {
     border-color: rgba(232, 170, 49, 1); 
   }
 
-
-
-
-/* 
-.checkboxContainer {
-   
-    display: flex;
-   
-  }
-  
-  .customCheckbox {
-   display: none; 
-  }
-  
-  .checkboxLabel {
-    position: relative;
-    padding-left: 30px; 
-    cursor: pointer; 
-  }
-  
-  
-  .checkboxLabel::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 20px;
-    height: 20px;
-    border: 2px solid white; 
+  .footer_ul_container_last input[type=checkbox] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    accent-color: rgba(232, 170, 49, 1);
+    caret-color: rgba(232, 170, 49, 1);
     background-color: rgb(39, 39, 39);
-    border-radius: 4px; 
+    border-radius: 3px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    cursor: pointer;
   }
-  
-  .customCheckbox:checked + .checkboxLabel::before {
-    background-color: rgb(39, 39, 39); 
-    border: 2px solid white; 
-  }
-  
-
-  .customCheckbox:checked + .checkboxLabel::after {
-    content: '✔'; 
-    position: absolute;
-    left: 4px; 
-    top: 50%;
-    transform: translateY(-50%);
-    color: rgba(232, 170, 49, 1); 
-    font-size: 16px; 
+  .footer_ul_container_last input[type="checkbox"]:hover {
+    border-color: rgba(232, 170, 49, 1); /* Изменяем цвет границы при наведении */
   }
 
+  .footer_ul_container_last input[type="checkbox"]:checked {
+    content: '+';
+    color: aliceblue;
+    background-color: rgba(232, 170, 49, 1); /* Цвет фона при выборе */
+    border: 2px solid rgba(232, 170, 49, 1); /* Border при выборе */
+  }
 
-  .emailInput {
-    width: 100%; 
-    padding: 10px; 
-    border: 2px solid white; 
+  .footer_ul_container_last input[type=text] {
+    accent-color: rgba(232, 170, 49, 1);
+    caret-color: rgba(232, 170, 49, 1);
     background-color: rgb(39, 39, 39);
-    color: white; 
-    border-radius: 4px; 
-    font-size: 16px; 
-    outline: none; 
-    transition: border-color 0.3s ease; 
+    border-left: 1px  solid rgba(255, 255, 255, 1);
+    border-top: 1px  solid rgba(255, 255, 255, 1);
+    border-bottom: 1px  solid rgba(255, 255, 255, 1);
   }
-  
-  .emailInput::placeholder {
-    color: rgba(255, 255, 255, 0.7); 
+  .footer_ul_container_last .checkboxLabel {
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 17px;
   }
-  
-  .emailInput:focus {
-    border-color: rgba(232, 170, 49, 1); 
-  }
-   */
+ 
+

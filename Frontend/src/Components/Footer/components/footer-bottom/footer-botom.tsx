@@ -4,6 +4,7 @@ import Watches from "../footer-bottom/assets/Watches.png";
 import GeolocationLogo from "../footer-bottom/assets/Geolocation.png";
 import MailLogo from "../footer-bottom/assets/mail.png";
 import Social from "../footer-bottom/assets/Social.png";
+import VectorRight from "../../../Assets/Vector-right.png";
 export const FooterBottom = () => {
   return (
     <div className={styles.footer_bottom_container}>
@@ -61,24 +62,27 @@ export const FooterBottom = () => {
           </li>
           <li>Подпишитесь прямо сейчас!</li>
           <li>
-            <li>
+            <li className={styles.emailContainer}>
               <input
                 type="text"
                 placeholder="example@gmail.com"
                 className={styles.emailInput}
               />
+              <div className={styles.emailButton}>
+                <img src={VectorRight} alt="Mail logo" />
+                 </div>
             </li>
           </li>
           <li className={styles.checkboxContainer}>
-            <input
-              type="checkbox"
-              id="agreement"
-              className={styles.customCheckbox}
-            />
-            <label htmlFor="agreement" className={styles.checkboxLabel}>
-              Я прочитал Условия соглашения и согласен с условиями
-            </label>
-          </li>
+      <input
+        type="checkbox"
+        id="agreement"
+        className={styles.customCheckbox}
+      />
+      <label htmlFor="agreement" className={styles.checkboxLabel}>
+        Я прочитал Условия соглашения и согласен с условиями
+      </label>
+    </li>
           
         </ul>
       </div>
