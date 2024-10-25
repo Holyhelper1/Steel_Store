@@ -1,5 +1,5 @@
 import { FooterBottom } from "./components/footer-bottom/footer-botom";
-import { FooterRights } from "./components/footer-bottom/footer-rights";
+import { FooterRights } from "./components/footer-bottom/footer-rights/footer-rights";
 import { FooterTop } from "./components/footer-top/footer-top";
 import styles from "./footer.module.css";
 export const Footer = () => {

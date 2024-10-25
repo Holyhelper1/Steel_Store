@@ -35,6 +35,9 @@
     flex-direction: column;
     font-weight: 700;
 }
+.vector_down {
+    margin-left: 10px;
+}
 
 .search_bar_phone span {
     font-size: 18px;

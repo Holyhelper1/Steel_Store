@@ -3,6 +3,7 @@ import Zlatmax_logo from "../assets/Zlatmax_logo.png";
 import Location_logo from "../assets/Location_logo.png";
 import Favorites_logo from "../assets/Favorites_logo.png";
 import Cart_logo from "../assets/Cart_logo.png";
+import VectorDown from "../../Assets/Vector-down.png";
 export const SearchBar = () => {
   return (
     <div className={styles.search_bar_container}>
@@ -19,7 +20,7 @@ export const SearchBar = () => {
         </div>
         <div className={styles.search_bar_phone}>
           <div>
-            8-800-777-49-67 <span>&or;</span>{" "}
+            8-800-777-49-67 <img className={styles.vector_down} src={VectorDown} alt="VectorDown" />
           </div>
           <span>Заказать звонок</span>
         </div>

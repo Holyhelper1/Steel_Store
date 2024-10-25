@@ -1,8 +1,8 @@
-import styles from "./footer-rights.module.css"
+import styles from "./footer-rights.module.css";
 export const FooterRights = () => {
   return (
-
     <div className={styles.footer_rights_container}>
+      <div className={styles.footer_rights_box}>
         <div>
           <p>
             Все материалы, размещенные на сайте, носят справочный характер и не
@@ -22,5 +22,6 @@ export const FooterRights = () => {
           <p>Златоустовские ножи www.zlatmax.ru ©</p>
         </div>
       </div>
-  )
-}
+    </div>
+  );
+};
