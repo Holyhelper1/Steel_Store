@@ -1,4 +1,5 @@
 .search_bar_container {
+    font-family: Montserrat;
     display: flex;
     height: 90px;
     justify-content: space-around;
@@ -13,6 +14,7 @@
     align-items: center;
     justify-content: space-between;
     width: 700px;
+    
 }
 
 .search_bar_input {

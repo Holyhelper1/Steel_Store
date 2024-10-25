@@ -30,7 +30,10 @@ export const ChooserInfo = () => {
             Златоустовских Оружейных Фабрик и компаний, мы являемся официальными
             постовщиками.
           </p>
+          <div className={styles.chooser_info_button}>
+
           <Button>Подробнее</Button>
+          </div>
           <p> ----- 01/4</p>
         </div>
         <div className={styles.chooser_info_title_block_img}>

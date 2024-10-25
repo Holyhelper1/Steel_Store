@@ -3,6 +3,7 @@
   justify-content: space-between;
   flex-direction: row;
   padding-top: 35px;
+  font-family: Montserrat;
   width: 1575px;
   background-color: rgba(20, 20, 20, 1);
   color: rgba(255, 255, 255, 0.8);
@@ -13,17 +14,16 @@
   width: 235px;
 }
 
-
 .footer_title {
-    font-weight: bold;
+  font-weight: bold;
   color: rgba(255, 255, 255, 1);
   line-height: 21.94px;
 }
 
 .footer_ul_container li {
-  list-style-type: none;
   line-height: 35px;
-  font-size: 18px;
+  font-size: 16px;
+  list-style-type: none;
 }
 .yellow {
   color: rgba(232, 170, 49, 1);
@@ -35,101 +35,92 @@
   cursor: pointer;
 }
 
-
 .footer_ul_container_last {
-    width: 379px;
-    height: 201px;
+  width: 379px;
+  height: 201px;
 }
 
 .footer_ul_container_last li {
-    list-style-type: none;
-    line-height: 35px;
- }
+  list-style-type: none;
+  line-height: 35px;
+}
 
- .emailContainer {
-    display: flex;
-    flex-direction: row;
-    /* border: 1px solid rgba(255, 255, 255, 1); */
-    border-radius: 3px;
-    margin: 20px 0;
-    
- }
- input:focus {
+.emailContainer {
+  display: flex;
+  flex-direction: row;
+  border-radius: 3px;
+  margin: 20px 0;
+}
+input:focus {
   outline: none;
   margin: 0;
- }
- input {
+}
+input {
   margin: 0;
   padding: 0;
   border: none;
- }
+}
 
- .emailButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    text-align: center;
-    width: 50px;
-    height: 50px;
-    background-color: rgba(232, 170, 49, 1);
- }
+.emailButton {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(232, 170, 49, 1);
+  border-radius: 0 3px 3px 0;
+}
 
- .emailInput  {
-  
-    width: 310px;
-    height: 48.5px;
-    padding-left: 15px;
-    font-size: 14px;
-    /* border: 2px solid white; */
-    border-radius: 3px 0 0 3px;
-    background-color: rgb(39, 39, 39);
-    color: rgba(255, 255, 255, 1);
-    
- }
- .emailInput::placeholder {
-    color: rgba(255, 255, 255, 0.7); 
-  }
+.emailInput {
+  width: 310px;
+  height: 48.5px;
+  padding-left: 15px;
+  font-size: 14px;
+  border-radius: 3px 0 0 3px;
+  background-color: rgb(39, 39, 39);
+  color: rgba(255, 255, 255, 1);
+}
+.emailInput::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
 
-  .footer_ul_container_last .emailInput:focus {
-    border-color: rgba(232, 170, 49, 1); 
-  }
+.footer_ul_container_last .emailInput:focus {
+  border-color: rgba(232, 170, 49, 1);
+}
 
-  .footer_ul_container_last input[type=checkbox] {
-    appearance: none;
-    -webkit-appearance: none;
-    width: 16px;
-    height: 16px;
-    accent-color: rgba(232, 170, 49, 1);
-    caret-color: rgba(232, 170, 49, 1);
-    background-color: rgb(39, 39, 39);
-    border-radius: 3px;
-    border: 2px solid rgba(255, 255, 255, 1);
-    cursor: pointer;
-  }
-  .footer_ul_container_last input[type="checkbox"]:hover {
-    border-color: rgba(232, 170, 49, 1); /* Изменяем цвет границы при наведении */
-  }
+.footer_ul_container_last input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  accent-color: rgba(232, 170, 49, 1);
+  caret-color: rgba(232, 170, 49, 1);
+  background-color: rgb(39, 39, 39);
+  border-radius: 3px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+.footer_ul_container_last input[type="checkbox"]:hover {
+  border-color: rgba(232, 170, 49, 1); 
+}
 
-  .footer_ul_container_last input[type="checkbox"]:checked {
-    content: '+';
-    color: aliceblue;
-    background-color: rgba(232, 170, 49, 1); /* Цвет фона при выборе */
-    border: 2px solid rgba(232, 170, 49, 1); /* Border при выборе */
-  }
+.footer_ul_container_last input[type="checkbox"]:checked {
+  content: "✓";
+  color: aliceblue;
+  background-color: rgba(232, 170, 49, 1); 
+  border: 2px solid rgba(232, 170, 49, 1); 
+}
 
-  .footer_ul_container_last input[type=text] {
-    accent-color: rgba(232, 170, 49, 1);
-    caret-color: rgba(232, 170, 49, 1);
-    background-color: rgb(39, 39, 39);
-    border-left: 1px  solid rgba(255, 255, 255, 1);
-    border-top: 1px  solid rgba(255, 255, 255, 1);
-    border-bottom: 1px  solid rgba(255, 255, 255, 1);
-  }
-  .footer_ul_container_last .checkboxLabel {
-    padding-left: 20px;
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 17px;
-  }
- 
-
+.footer_ul_container_last input[type="text"] {
+  accent-color: rgba(232, 170, 49, 1);
+  caret-color: rgba(232, 170, 49, 1);
+  background-color: rgb(39, 39, 39);
+  border-left: 1px solid rgba(255, 255, 255, 1);
+  border-top: 1px solid rgba(255, 255, 255, 1);
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+.footer_ul_container_last .checkboxLabel {
+  padding-left: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 17px;
+}

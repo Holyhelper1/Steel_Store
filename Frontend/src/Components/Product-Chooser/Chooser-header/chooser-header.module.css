@@ -1,5 +1,6 @@
 .chooser_header_container {
   background-color: rgba(20, 20, 20, 1);
+  font-family: Montserrat;
 }
 
 .chooser_header_list {
@@ -10,11 +11,11 @@
   color: rgba(255, 255, 255, 1);
   margin: 0;
   padding: 0;
-
 }
 .chooser_header_list li {
-    text-align: center;
-    line-height: 70px;
+  text-align: center;
+  line-height: 70px;
+  transition: 0.3s ease-in-out;
   }
 
 .chooser_header_list li:hover {

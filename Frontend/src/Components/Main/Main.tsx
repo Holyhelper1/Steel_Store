@@ -9,6 +9,7 @@ import Knife3 from "../Product/assets/knife-3.png";
 import Knife4 from "../Product/assets/knife-4.png";
 import Knife5 from "../Product/assets/knife-5.png";
 import Knife7 from "../Product/assets/knife-7.png";
+import { Bestsellers } from "../Bestsellers/bestsellers";
 
 const mokProductsData = [
   {
@@ -54,10 +55,7 @@ export const Main = () => {
           <ProductCard key={product.id} products={[product]} />
         ))}
       </div>
-      <div className={styles.main_product_title_hit}>
-        <h2>Хиты продаж</h2>
-        <p>Перейти в каталог <span>&gt;</span>  </p>
-      </div>
+    <Bestsellers/>
     </div>
   );
 };

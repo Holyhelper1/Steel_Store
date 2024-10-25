@@ -1,0 +1,46 @@
+.bestsellers_container {
+  margin: auto;
+  width: 1565px;
+  font-family: Montserrat;
+}
+
+.bestsellers_product_title_hit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 1);
+  font-size: 15px;
+}
+.bestsellers_product_title_hit p {
+  font-family: Montserrat;
+  margin-left: 10px;
+}
+.bestsellers_product_title_hit p span {
+  color: rgba(232, 170, 49, 1);
+  cursor: pointer;
+}
+
+.bestsellers_product_title_hit p span {
+  color: rgba(232, 170, 49, 1);
+  cursor: pointer;
+}
+
+.bestsellers_product_title_hit h2 {
+  margin: 0;
+
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.bestsellers_product_card_hit {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 1);
+  font-size: 15px;
+  margin-bottom: 60px;
+}
