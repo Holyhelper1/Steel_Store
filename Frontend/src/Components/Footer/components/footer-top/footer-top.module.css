@@ -4,6 +4,7 @@
   flex-direction: row;
   padding-top: 102px;
   width: 1575px;
+  font-family: Montserrat;
   background-color: rgba(20, 20, 20, 1);
   color: rgba(255, 255, 255, 0.8);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -31,5 +32,5 @@
 .footer_ul_container li {
   list-style-type: none;
   line-height: 35px;
-  font-size: 18px;
+  font-size: 16px;
 }
