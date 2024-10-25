@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Steel_Store/static/css/main.638e719a.css",
-    "main.js": "/Steel_Store/static/js/main.07732f81.js",
+    "main.css": "/Steel_Store/static/css/main.3a1c4dd3.css",
+    "main.js": "/Steel_Store/static/js/main.e6900845.js",
     "static/js/453.6648069d.chunk.js": "/Steel_Store/static/js/453.6648069d.chunk.js",
     "static/media/background_forest.png": "/Steel_Store/static/media/background_forest.f309a7857fa445463862.png",
     "static/media/Montserrat-VariableFont_wght.ttf": "/Steel_Store/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
@@ -14,12 +14,12 @@
     "static/media/knife-2.png": "/Steel_Store/static/media/knife-2.f3dd45bde6c0f922dfd8.png",
     "static/media/knife-1.png": "/Steel_Store/static/media/knife-1.3e8576c399fb78731d5d.png",
     "index.html": "/Steel_Store/index.html",
-    "main.638e719a.css.map": "/Steel_Store/static/css/main.638e719a.css.map",
-    "main.07732f81.js.map": "/Steel_Store/static/js/main.07732f81.js.map",
+    "main.3a1c4dd3.css.map": "/Steel_Store/static/css/main.3a1c4dd3.css.map",
+    "main.e6900845.js.map": "/Steel_Store/static/js/main.e6900845.js.map",
     "453.6648069d.chunk.js.map": "/Steel_Store/static/js/453.6648069d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.638e719a.css",
-    "static/js/main.07732f81.js"
+    "static/css/main.3a1c4dd3.css",
+    "static/js/main.e6900845.js"
   ]
 }
